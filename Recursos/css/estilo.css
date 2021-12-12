@@ -1,0 +1,62 @@
+/* Cabeçalho */
+header
+{
+    width: 100%;
+    background-color: #C62E29;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+}
+/* Texto do cabeçalho */
+h1
+{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+body
+{
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+/* Manchete e destaques*/
+img.manchete, img.destaque
+{
+    width: 100%;
+}
+h2, h3, span.detalhe
+{
+    width: 100%;
+}
+
+/* Div de noticia
+(Foto, titulo e descrição) */
+div.noticia
+{
+    margin-bottom: 20px;
+}
+/* Div de seção
+(varias noticias dentro) */
+div.secao 
+{
+    margin-bottom: 50px;
+    border: 1px solid rgb(128,128,128,0.5);
+}
+
+/* Separador "Outras noticias" */
+.separador
+{
+    width: 100%;
+    padding: 5px;
+    margin-top: 40px; margin-bottom: 25px;
+    color: rgb(128,128,128);
+    border-bottom: 1px solid rgb(128,128,128);
+}
+
+img.time
+{
+    width: 30%;
+    margin-bottom: 5px;
+}
